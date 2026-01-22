@@ -1,3 +1,9 @@
+/**
+ * EnviroLink Backend Server
+ * Main Express application for handling all API routes
+ * Features: User, Company, Driver, Admin authentication and waste management
+ */
+
 import express from "express";
 import cors from "cors";
 import { connect, insert, getData, get, update } from "./database/connection.js";
