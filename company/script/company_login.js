@@ -1,3 +1,10 @@
+/**
+ * Company Login Script
+ * Handles company authentication and session management
+ * Provides navigation menu functionality and credential validation
+ */
+
+// Toggle responsive navigation menu
 function myMenuFunction() {
     var i = document.getElementById("navMenu");
 
