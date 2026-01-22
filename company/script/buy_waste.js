@@ -1,3 +1,10 @@
+/**
+ * Buy Waste Script
+ * Allows companies to browse and purchase waste materials from users
+ * Fetches available waste listings, manages quantity selection, and handles purchases
+ * Features: Waste browsing, price display, purchase cart management
+ */
+
 let wasteData = {}; // Define outside the function to access globally
 
 document.addEventListener('DOMContentLoaded', async () => {
