@@ -1,3 +1,9 @@
+/**
+ * User Login Script
+ * Handles user authentication and session management
+ * Validates credentials with backend API and stores user data locally
+ */
+
 document.addEventListener("DOMContentLoaded", function () {
   const loginForm = document.getElementById("login");
 
