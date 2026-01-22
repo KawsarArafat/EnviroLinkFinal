@@ -1,3 +1,10 @@
+/**
+ * User History Script
+ * Displays user's transaction history and waste listings
+ * Fetches historical data from backend and displays in formatted table
+ * Allows users to view all past waste sales and transactions
+ */
+
 document.addEventListener('DOMContentLoaded', async function () {
     const user = JSON.parse(localStorage.getItem('user'));
     if (!user) {
