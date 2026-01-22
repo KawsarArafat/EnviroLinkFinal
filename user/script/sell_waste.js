@@ -1,4 +1,12 @@
+/**
+ * Sell Waste Script
+ * Manages user waste listing and pricing
+ * Handles waste type selection, quantity calculation, and price estimation
+ * Features: Waste type selection, price calculation, submission to backend
+ */
+
 document.addEventListener('DOMContentLoaded', function () {
+  // Define waste pricing per unit (in currency)
   const wastePrices = {
     Plastic: 45,
     Paper: 40,
