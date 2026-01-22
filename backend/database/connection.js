@@ -1,3 +1,9 @@
+/**
+ * Database Connection Module
+ * Handles Oracle Database connections for EnviroLink application
+ * Provides methods for CRUD operations: connect, insert, getData, get, update
+ */
+
 import oracledb from "oracledb";
 
 let connection;
