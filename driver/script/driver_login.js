@@ -1,3 +1,10 @@
+/**
+ * Driver Login Script
+ * Handles driver authentication using ID and phone number
+ * Manages responsive navigation menu and credential validation
+ */
+
+// Toggle responsive navigation menu
 function myMenuFunction() {
     var i = document.getElementById("navMenu");
 
