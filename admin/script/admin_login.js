@@ -1,3 +1,10 @@
+/**
+ * Admin Login Script
+ * Handles admin authentication with email and password
+ * Provides access to admin dashboard for platform management
+ */
+
+// Toggle responsive navigation menu
 function myMenuFunction() {
   var i = document.getElementById("navMenu");
 
